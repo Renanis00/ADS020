@@ -64,7 +64,8 @@ g) Acrescente um campo de texto secreto para ler a senha do usuário. Atribua o 
 
 h) Acrescente um botão submit com o valor Entrar (Dica: <h:commandButton value="Entrar"/>).
 
-i) Acrescente um link com o valor Esqueci a senha (Dica: <h:outputLink><h:outputText value="Esqueci a senha"/></h:outputLink>
+
+Acrescente um link com o valor Esqueci a senha (Dica: <h:outputLink><h:outputText value="Esqueci a senha"/></h:outputLink>
 
 j) Abra a página login no navegador. Preenche o formulário de login e acione Entrar. O que acontece com a página?
 
