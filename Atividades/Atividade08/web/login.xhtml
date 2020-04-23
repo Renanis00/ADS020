@@ -8,15 +8,17 @@
     <h:body>
         <h:form>
             <h:panelGrid columns="2">
-                <h:outputLabel  value="Matrícula" for="inputMatricula"/>  
+                <h:outputLabel value="Matrícula" for="inputMatricula"/>
                 <h:inputText id="inputMatricula" value="#{loginMB.matricula}"/>
-                <h:outputLabel  value="Senha" for="inputSenha"/> 
-                <h:inputSecret id="inputSenha" value="#{loginMB.senha}"/>
-                <h:commandButton value="Entrar" action="#{loginMB.entrar}"/>
-                <h:outputLink><h:outputText value="Esqueci a senha"/></h:outputLink>
-                <h:messages errorStyle="color: red"/>
-            </h:panelGrid>
+                
+                <h:outputLabel value="Senha" for="inputSenha"/>
+                <h:inputText id="inputSenha" value="#{loginMB.senha}"/>
+            </h:panelGrid>  
+            <h:commandButton action="#{loginMB.entrar}" value="Entrar"/>
+            <h:outputLink><h:outputText value="Esqueci a senha"/></h:outputLink>
+             <h:messages errorStyle="color: red"/>
         </h:form>
+       
     </h:body>
 </html>
 
